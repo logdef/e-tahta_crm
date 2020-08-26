@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="de70d097-f3ef-4a87-8da3-ae2094a2dade" name="cpanel.e-tahta.xyz" url="http://cpanel.e-tahta.xyz">
+        <fileTransfer rootFolder="/public_html" host="cpanel.e-tahta.xyz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ddcf3df0-a409-4895-b5cb-da84e28ae46e" name="CPANEL" url="http://localhost">
+        <fileTransfer mountedRoot="C:\xampp\www\crm" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
