@@ -33,7 +33,7 @@ Route::prefix('index')->group(function () {
         Route::resource('/users', 'UsersController');
         Route::resource('/departments', 'DepartmentsController');
         Route::resource('/lassigndepartment', 'LassignsDepartmentontroller');
-        Route::resource('/pay', 'OdemeController');
+
 
     });
 });

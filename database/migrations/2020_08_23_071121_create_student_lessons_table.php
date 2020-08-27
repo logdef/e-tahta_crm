@@ -16,7 +16,7 @@ class CreateStudentLessonsTable extends Migration
         Schema::create('student_lessons', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('student_id');
-            $table->bigInteger('lassigndepartmen_id')->unsigned();
+            $table->unsignedBigInteger('lassigndepartmen_id');
             $table->foreign('lassigndepartmen_id')->references('id')->on('lassign_departments')->onDelete('cascade');
             $table->enum('student_status',['0','1'])->default(0);
             $table->integer('package_id')->nullable();

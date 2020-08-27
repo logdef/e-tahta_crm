@@ -311,7 +311,7 @@
                 <li class="active"><a href="{{route('studentlessons.index')}}"><i class="fa fa-link"></i> <span>öğrenci Ders Atama</span></a></li>
                 <li class="active"><a href="{{route('studentpackage.index')}}"><i class="fa fa-link"></i> <span>öğrenci Paket Atama</span></a></li>
                 <li><a href="{{route('studentassign.index')}}"><i class="fa fa-link"></i> <span>Öğrenci İşlemleri</span></a></li>
-                <li class="active"><a href="{{route('pay.index')}}"><i class="fa fa-link"></i> <span>Ödeme İşlemleri</span></a></li>    
+
 
 
 

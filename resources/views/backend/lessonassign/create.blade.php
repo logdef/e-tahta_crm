@@ -39,7 +39,6 @@
                                     <th>Dersin Adı</th>
                                     <th>Dersin Kodu</th>
                                     <th>Açıklama</th>
-                                    <th>Sınıfı</th>
                                     <th></th>
                                 </tr>
                                 </thead>
