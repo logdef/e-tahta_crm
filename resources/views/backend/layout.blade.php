@@ -299,7 +299,7 @@
 
             <!-- Sidebar Menu -->
             <ul class="sidebar-menu" data-widget="tree">
-                <li class="header">Kotnrol Paneli</li>
+                <li class="header">Kontrol Paneli</li>
                 <!-- Optionally, you can add icons to the links -->
                 <li class="active"><a href="{{route('users.index')}}"><i class="fa fa-link"></i> <span>Kullanıcılar</span></a></li>
                 <li class="active"><a href="{{route('lesson.index')}}"><i class="fa fa-link"></i> <span>Dersler</span></a></li>
@@ -308,9 +308,11 @@
                 <li class="active"><a href="{{route('lassigndepartment.index')}}"><i class="fa fa-link"></i> <span>Ders Şube Atama </span></a></li>
                 <li class="active"><a href="{{route('lessonspackage.index')}}"><i class="fa fa-link"></i> <span>Ders Paketleri</span></a></li>
                 <li class="active"><a href="{{route('departments.index')}}"><i class="fa fa-link"></i> <span>Şube Oluşturma</span></a></li>
-                <li class="active"><a href="{{route('studentlessons.index')}}"><i class="fa fa-link"></i> <span>öğrenci Ders Atama</span></a></li>
-                <li class="active"><a href="{{route('studentpackage.index')}}"><i class="fa fa-link"></i> <span>öğrenci Paket Atama</span></a></li>
+                <li class="active"><a href="{{route('studentlessons.index')}}"><i class="fa fa-link"></i> <span>Öğrenci Ders Atama</span></a></li>
+                <li class="active"><a href="{{route('studentpackage.index')}}"><i class="fa fa-link"></i> <span>Öğrenci Paket Atama</span></a></li>
                 <li><a href="{{route('studentassign.index')}}"><i class="fa fa-link"></i> <span>Öğrenci İşlemleri</span></a></li>
+                <li><a href="{{route('odemetablo.index')}}"><i class="fa fa-link"></i> <span>Ödeme Tablosu</span></a></li>
+                <li><a href="{{route('odemeler.index')}}"><i class="fa fa-link"></i> <span>Ödeme Paneli</span></a></li>
 
 
 

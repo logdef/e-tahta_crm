@@ -33,8 +33,11 @@ Route::prefix('index')->group(function () {
         Route::resource('/users', 'UsersController');
         Route::resource('/departments', 'DepartmentsController');
         Route::resource('/lassigndepartment', 'LassignsDepartmentontroller');
-
-
+        Route::resource('/payment','PaymentController');
+        Route::resource('/odemetablo','PaymentController');
+        Route::resource('/odemeler','PayingController');
+        Route::post('/odemetablo/list', 'PaymentController@list')->name('odemetablo.list');
+        Route::resource('/odemetablo/list/edit', 'PaymentController@destroy')->name('odemetablo.destroy');
     });
 });
 
@@ -51,3 +54,4 @@ Route::prefix('index/lessonspackage')->group(function () {
 
     });
 });
+
