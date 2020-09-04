@@ -6,5 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Payments extends Model
 {
-    //
+    protected $primaryKey = 'user_id';
+    
 }

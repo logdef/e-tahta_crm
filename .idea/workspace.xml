@@ -11,26 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="057ae6ca-fae7-4462-a226-b0a3b051c49a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/backend/class/department.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backend/class/lassign.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backend/classinfo/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pdf/pdf.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/PayingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/PaymentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Paying.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_31_070353_create_payings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/backend/dist/css/backend.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/backend/dist/img/credit/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/pay/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/pay/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/pay/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/LassignsDepartmentontroller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/LectureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/LectureController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Lassign.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Lassign.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Lessons.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Lessons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/default/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/default/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PDFController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PDFController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Payments.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Payments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/StudentLessons.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/StudentLessons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/ilk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/log.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/lesson/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/lesson/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sehirler.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sehirler.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pdf/pdf.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pdf/pdf.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,24 +183,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mustafa/crm" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\mustafa\crm\resources\views\backend\class" />
-      <recent name="C:\xampp\www\crm\resources\views\backend\lassigndepartment" />
-      <recent name="C:\xampp\www\crm" />
-      <recent name="C:\xampp\www\crm\resources\views\backend\lessonsdepartment" />
-      <recent name="C:\xampp\www\crm\resources\views\backend\deparment" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\mustafa\crm\resources\views\pdf" />
       <recent name="C:\mustafa\crm\resources\views\backend\classinfoadd" />
       <recent name="C:\xampp\www\crm\database\migrations" />
       <recent name="C:\xampp\www\crm\resources\views\backend" />
       <recent name="C:\xampp\www\crm\app\Http\Controllers\Backend" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\www\e-tahta_crm\public\backend\dist\img\credit" />
+      <recent name="C:\mustafa\crm\resources\views\backend\class" />
+      <recent name="C:\xampp\www\crm\resources\views\backend\lassigndepartment" />
+      <recent name="C:\xampp\www\crm" />
+      <recent name="C:\xampp\www\crm\resources\views\backend\lessonsdepartment" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.welcome.blade.php">
@@ -297,6 +296,10 @@
       <workItem from="1599118768480" duration="17950000" />
       <workItem from="1599141181164" duration="2226000" />
       <workItem from="1599202961798" duration="1198000" />
+      <workItem from="1599205861094" duration="1262000" />
+      <workItem from="1599207580584" duration="104000" />
+      <workItem from="1599207731771" duration="369000" />
+      <workItem from="1599208186573" duration="1344000" />
     </task>
     <servers />
   </component>
@@ -338,10 +341,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595918705602" />
-    <state x="-1234" y="211" key="FileChooserDialogImpl" timestamp="1599141017219">
+    <state x="-1234" y="211" key="FileChooserDialogImpl" timestamp="1599209529631">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1234" y="211" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599141017219" />
+    <state x="-1234" y="211" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599209529631" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597435790918" />
     <state width="237" height="577" key="HiddenNamespacesPopup" timestamp="1597415156865">
       <screen x="-1920" y="0" width="1920" height="1040" />

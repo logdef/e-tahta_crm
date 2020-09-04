@@ -41,10 +41,17 @@ Route::prefix('index')->group(function () {
         Route::resource('/studentpackage', 'StudentPackageController');
         Route::resource('/users', 'UsersController');
         Route::resource('/departments', 'DepartmentsController');
-        Route::resource('/lassigndepartment', 'LassignsDepartmentController');
+
+
         Route::resource('/class', 'ClassController');
         Route::resource('/classinfo', 'ClassinfoController');
 
+        Route::resource('/lassigndepartment', 'LassignsDepartmentontroller');
+        Route::resource('/payment','PaymentController');
+        Route::resource('/odemetablo','PaymentController');
+        Route::resource('/odemeler','PayingController');
+        Route::post('/odemetablo/list', 'PaymentController@list')->name('odemetablo.list');
+        Route::resource('/odemetablo/list/edit', 'PaymentController@destroy');
     });
 });
 
@@ -62,3 +69,4 @@ Route::prefix('index/lessonspackage')->group(function () {
 
     });
 });
+

@@ -24,6 +24,8 @@ class PDFController extends Controller
     public function pdf($id){
 
         $data['student'] = Students::where('user_id',$id)->first();
+//        return view('pdf.pdf',compact('data',$data));
+
         $pdf = PDF::loadView('pdf.pdf',compact('data',$data))->setPaper('a4','portrait');
         $filename=$data['student'] ->name;
         return $pdf->stream($filename.'.'.'pdf');

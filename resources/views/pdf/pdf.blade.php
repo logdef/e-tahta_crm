@@ -57,7 +57,7 @@
                 <div class="pdf-container" style="font-family: DejaVu Sans, sans-serif;">
 
                     <div class="header-wrapper" style="font-family: DejaVu Sans, sans-serif;">
-                        <img class="logo" src="{{asset('img/logo.png')}}" alt="">
+                            <img class="logo" src="{{asset('images/logo.png')}}" alt="">
                         <p class="address">Tekno kent</p>
                     </div>
 
