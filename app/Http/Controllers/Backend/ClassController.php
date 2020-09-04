@@ -2,12 +2,16 @@
 
 namespace App\Http\Controllers\Backend;
 
+use App\Departments;
 use App\Http\Controllers\Controller;
-use App\Lessons;
-use Barryvdh\DomPDF\PDF;
+use App\Lassign;
+use App\LassignDepartments;
+use App\Teachers;
 use Illuminate\Http\Request;
-use App;
-class DefaultController extends Controller
+use App\Lessons;
+use Illuminate\Support\Facades\View;
+
+class ClassController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,11 +20,8 @@ class DefaultController extends Controller
      */
     public function index()
     {
-
-
-        return view('backend.default.index');
-
-
+        $data['class']=Lessons::all();
+        return  view('backend.class.index',compact('data'));
     }
 
     /**
@@ -28,9 +29,12 @@ class DefaultController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+
     public function create()
     {
-        //
+
+
     }
 
     /**
@@ -87,5 +91,20 @@ class DefaultController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function teacher (Request $request)
+    {
+        $data['teacher']=Teachers::all();
+        $data['lassign']=Lassign::where('lessons_id',$request->lessons_id)->get();
+        return  view('backend.class.lassign',compact('data'));
+    }
+    public function department (Request $request)
+    {
+
+        $data['lassign_departments']=LassignDepartments::where('lassign_id',$request->lassign_id)->get();
+
+        $data['department']=Departments::all();
+        return  view('backend.class.department',compact('data'));
     }
 }

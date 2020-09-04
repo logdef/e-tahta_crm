@@ -8,4 +8,7 @@ class Lassign extends Model
 {
     protected $fillable  = ['lessons_id','users_id'];
 
+
+
+
 }

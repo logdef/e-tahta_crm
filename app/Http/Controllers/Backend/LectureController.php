@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Lessons;
 use App\Schools;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
 
 class LectureController extends Controller
 {
@@ -16,10 +18,14 @@ class LectureController extends Controller
      */
     public function index()
     {
+
+
         $data['lessons'] = Lessons::all();
         $data['schools'] = Schools::all();
 
         return view('backend.lesson.index', compact('data'));
+
+
     }
 
     /**
@@ -167,5 +173,18 @@ class LectureController extends Controller
             echo 1;
         }
         echo 0;
+    }
+
+    public function report(){
+
+        return DB::table('lassigns as las')
+            ->selectRaw('les.lessons_name, COUNT(*) as Total')
+            ->join('lessons as les','les.id','=','las.lessons_id')
+            ->join('teachers as tec','tec.user_id','=','las.users_id')
+            ->groupBy('les.lessons_name')
+            ->orderByRaw('COUNT(*) DESC')
+            ->get();
+
+
     }
 }

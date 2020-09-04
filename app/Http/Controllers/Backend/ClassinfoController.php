@@ -3,11 +3,9 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
-use App\Lessons;
-use Barryvdh\DomPDF\PDF;
 use Illuminate\Http\Request;
-use App;
-class DefaultController extends Controller
+
+class ClassinfoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,11 +14,7 @@ class DefaultController extends Controller
      */
     public function index()
     {
-
-
-        return view('backend.default.index');
-
-
+        return  view('backend.classinfo.index');
     }
 
     /**
@@ -30,7 +24,7 @@ class DefaultController extends Controller
      */
     public function create()
     {
-        //
+        return  view('backend.classinfo.create');
     }
 
     /**

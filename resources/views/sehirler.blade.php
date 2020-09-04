@@ -68,7 +68,8 @@
         <div class="container ys-main">
             <div class="row">
                 <div class="col-md-16">
-                    <div class="cityPlatesContainer"><a data-catalog="ADANA" class="cityLink col-md-1 " href="/adana">
+                    <div class="cityPlatesContainer">
+                        <a data-catalog="ADANA" class="cityLink col-md-1 " href="/adana">
                             <div class="cityContainer"><span class="plateNo">01</span></div>
                             <span class="name">Adana</span> </a> <a data-catalog="TR_ADIYAMAN"
                                                                     class="cityLink col-md-1 " href="/adiyaman">

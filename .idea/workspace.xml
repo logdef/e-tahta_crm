@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="057ae6ca-fae7-4462-a226-b0a3b051c49a" name="Default Changelist" comment="" />
+    <list default="true" id="057ae6ca-fae7-4462-a226-b0a3b051c49a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/class/department.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/class/lassign.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/classinfo/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pdf/pdf.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/LassignsDepartmentontroller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/LectureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/LectureController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Lassign.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Lassign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Lessons.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Lessons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/default/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/default/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/lesson/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/lesson/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sehirler.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sehirler.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +44,9 @@
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../crm\exportToHTML" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -132,6 +166,11 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
       <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fAsHltUSVJy3DsMlyW1K9VgJkR" />
@@ -145,22 +184,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\www\crm\database\migrations" />
-      <recent name="C:\xampp\www\crm\resources\views\backend" />
-      <recent name="C:\xampp\www\crm\app\Http\Controllers\Backend" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mustafa\crm\resources\views\backend\class" />
       <recent name="C:\xampp\www\crm\resources\views\backend\lassigndepartment" />
       <recent name="C:\xampp\www\crm" />
       <recent name="C:\xampp\www\crm\resources\views\backend\lessonsdepartment" />
       <recent name="C:\xampp\www\crm\resources\views\backend\deparment" />
-      <recent name="C:\xampp\www\crm\resources\views\backend\studentpackage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\mustafa\crm\resources\views\pdf" />
+      <recent name="C:\mustafa\crm\resources\views\backend\classinfoadd" />
+      <recent name="C:\xampp\www\crm\database\migrations" />
+      <recent name="C:\xampp\www\crm\resources\views\backend" />
+      <recent name="C:\xampp\www\crm\app\Http\Controllers\Backend" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.welcome.blade.php">
@@ -244,11 +285,35 @@
       <workItem from="1598445779768" duration="2198000" />
       <workItem from="1598448414453" duration="614000" />
       <workItem from="1598512597458" duration="7593000" />
+      <workItem from="1598605430100" duration="822000" />
+      <workItem from="1598858724645" duration="2156000" />
+      <workItem from="1598865550293" duration="1422000" />
+      <workItem from="1598871810852" duration="9976000" />
+      <workItem from="1598942903259" duration="1358000" />
+      <workItem from="1598952196840" duration="9555000" />
+      <workItem from="1599030979906" duration="7631000" />
+      <workItem from="1599039369663" duration="24000" />
+      <workItem from="1599039431887" duration="16022000" />
+      <workItem from="1599118768480" duration="17950000" />
+      <workItem from="1599141181164" duration="2226000" />
+      <workItem from="1599202961798" duration="1198000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1381" y="159" key="#CLI_Interpreters" timestamp="1597415106167">
@@ -260,45 +325,47 @@
     </state>
     <state x="-1469" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597414875183" />
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596822419723" />
-    <state x="539" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597517954538">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="539" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597517954538" />
-    <state x="-1230" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597751234880">
+    <state x="-1246" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598965167422">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1230" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597751234880" />
+    <state x="-1246" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598965167422" />
+    <state x="539" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597517954538" />
+    <state x="-1230" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599055510048">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1230" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599055510048" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1595918705602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595918705602" />
-    <state x="-1234" y="211" key="FileChooserDialogImpl" timestamp="1598522886751">
+    <state x="-1234" y="211" key="FileChooserDialogImpl" timestamp="1599141017219">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1234" y="211" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598522886751" />
+    <state x="-1234" y="211" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599141017219" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597435790918" />
     <state width="237" height="577" key="HiddenNamespacesPopup" timestamp="1597415156865">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="237" height="577" key="HiddenNamespacesPopup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597415156865" />
     <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1596822430405" />
-    <state x="-1674" y="246" key="NewPhpClassDialog" timestamp="1597042428427">
+    <state x="-1674" y="246" key="NewPhpClassDialog" timestamp="1599048891129">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1674" y="246" key="NewPhpClassDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597042428427" />
-    <state x="-1333" y="424" key="NewPhpFileDialog" timestamp="1597043189674">
+    <state x="-1674" y="246" key="NewPhpClassDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599048891129" />
+    <state x="-1333" y="424" key="NewPhpFileDialog" timestamp="1599123036722">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1333" y="424" key="NewPhpFileDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597043189674" />
+    <state x="-1333" y="424" key="NewPhpFileDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599123036722" />
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1596910434249" />
     <state x="259" y="102" key="SettingsEditor" timestamp="1597429137355">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1460" y="149" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597415120771" />
     <state x="259" y="102" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597429137355" />
-    <state width="521" height="446" key="SwitcherDM" timestamp="1595758932944">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="652" height="563" key="SwitcherDM" timestamp="1599139750928">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="652" height="563" key="SwitcherDM/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599139750928" />
     <state width="521" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1595758932944" />
     <state x="374" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595758940151">
       <screen x="0" y="0" width="1536" height="824" />
@@ -321,10 +388,10 @@
     </state>
     <state x="-1389" y="236" key="run.anything.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597734807068" />
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1597081029903" />
-    <state x="-1381" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1597827116724">
+    <state x="-1381" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1599139740329">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1381" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597827116724" />
+    <state x="-1381" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599139740329" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596955993240" />
   </component>
 </project>

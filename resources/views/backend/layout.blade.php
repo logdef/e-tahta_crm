@@ -105,6 +105,34 @@
         .dropdown:hover .dropbtn {
             background-color: #3e8e41;
         }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+
+        .price {
+            color: grey;
+            font-size: 22px;
+        }
+
+        .card button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        .card button:hover {
+            opacity: 0.7;
+        }
     </style>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -311,6 +339,8 @@
                 <li class="active"><a href="{{route('studentlessons.index')}}"><i class="fa fa-link"></i> <span>öğrenci Ders Atama</span></a></li>
                 <li class="active"><a href="{{route('studentpackage.index')}}"><i class="fa fa-link"></i> <span>öğrenci Paket Atama</span></a></li>
                 <li><a href="{{route('studentassign.index')}}"><i class="fa fa-link"></i> <span>Öğrenci İşlemleri</span></a></li>
+                <li><a href="{{route('class.index')}}"><i class="fa fa-link"></i> <span>Dersler Listesi</span></a></li>
+                <li><a href="{{route('classinfo.index')}}"><i class="fa fa-link"></i> <span>Dersler Veri Ekleme</span></a></li>
 
 
 

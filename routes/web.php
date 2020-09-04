@@ -1,5 +1,6 @@
 <?php
 
+use Barryvdh\DomPDF\PDF;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/pdf/{id}', 'PDFController@pdf')->name('pdf.pdf');
+
+
+
+Route::get('index/class/teacher', 'Backend\ClassController@teacher')->name('class.teacher');
+Route::get('index/class/department', 'Backend\ClassController@department')->name('class.department');
+
+
+
 Route::prefix('index')->group(function () {
     Route::namespace('Backend')->group(function () {
 
@@ -24,7 +34,6 @@ Route::prefix('index')->group(function () {
         Route::resource('/lesson', 'LectureController');
         Route::resource('/lassign', 'LassignController');
         Route::resource('/teacher', 'TeacherController');
-
         Route::resource('/product', 'LessonsbasketController');
         Route::resource('/lessonspackage', 'LessonspackageController');
         Route::resource('/studentassign', 'StudentAssignController');
@@ -32,11 +41,13 @@ Route::prefix('index')->group(function () {
         Route::resource('/studentpackage', 'StudentPackageController');
         Route::resource('/users', 'UsersController');
         Route::resource('/departments', 'DepartmentsController');
-        Route::resource('/lassigndepartment', 'LassignsDepartmentontroller');
-
+        Route::resource('/lassigndepartment', 'LassignsDepartmentController');
+        Route::resource('/class', 'ClassController');
+        Route::resource('/classinfo', 'ClassinfoController');
 
     });
 });
+
 
 Route::prefix('index/lessonspackage')->group(function () {
     Route::namespace('Backend')->group(function () {

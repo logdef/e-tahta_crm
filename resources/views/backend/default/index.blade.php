@@ -23,6 +23,7 @@
             <!--------------------------
               | Your Page Content Here |
               -------------------------->
+            <a href="{{route('pdf.pdf',12)}}">pdf</a>
 
         </section>
         <!-- /.content -->

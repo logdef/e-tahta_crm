@@ -23,29 +23,7 @@
                         <div class="box-header">
                             <h3 class="box-title">Dersler Tablosu</h3>
                            <div>
-{{--                               <div class="form-group col-sm-8">--}}
-{{--                                   <label>Okul</label><br>--}}
-{{--                                   <select name="school_name" id="school_name">--}}
-{{--                                       <option value="0">Seçiniz</option>--}}
-{{--                                       <optgroup label="İLK ÖĞRETİM">--}}
-{{--                                           <option value="1">ilk öğretim</option>--}}
-{{--                                       </optgroup>--}}
-{{--                                       <optgroup label="ORTA ÖĞRETİM">--}}
-{{--                                           <option value="2">Orta Öğretim</option>--}}
-{{--                                           <option value="3">LGS</option>--}}
-{{--                                       </optgroup>--}}
-{{--                                       <optgroup label="LİSE">--}}
-{{--                                           <option value="4">Lise</option>--}}
-{{--                                           <option value="5">TYT</option>--}}
-{{--                                           <option value="6">AYT</option>--}}
-{{--                                       </optgroup>--}}
-{{--                                       <optgroup label="Sınavlar">--}}
-{{--                                           <option value="7">KPSS Ön Lisans</option>--}}
-{{--                                           <option value="8">KPSS Lisans</option>--}}
-{{--                                           <option value="9">DGS</option>--}}
-{{--                                       </optgroup>--}}
-{{--                                   </select>--}}
-{{--                               </div>--}}
+
                                <div class="form-group" align="right">
                                    <a href="{{route('lesson.create')}}">
                                        <button class="btn btn-success">Ekle</button>
@@ -57,7 +35,7 @@
 
 
                         <div class="box-body">
-                            <table id="example2" class="table table-bordered table-hover">
+                            <table class="table table-bordered table-hover">
                                 <thead>
                                 <tr>
                                     <th>Okul Bölümü</th>
